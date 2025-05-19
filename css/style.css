@@ -39,13 +39,21 @@ header h1 {
 .menu a {
   color: white;
   text-decoration: none;
+  transition: color 0.1s ease;
+}
+
+.menu a:hover {
+  color: #ff595e;
+  padding: 3px;
+  border-radius: 5px;
 }
 
 .hero {
-  background: url('https://picsum.photos/1200/500?blur') center/cover no-repeat;
+  display: flex;
+  background-color: #333;
   color: rgb(253, 252, 252);
   text-align: center;
-  padding: 6rem 1rem;
+  padding: 4rem 2rem;
 }
 
 .hero .btn {
@@ -59,6 +67,7 @@ header h1 {
 }
 
 section {
+  display: flex;
   padding: 2rem;
 }
 
